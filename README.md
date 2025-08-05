@@ -34,22 +34,33 @@ npm run build
 
 Project Structure
 
-src/
-├── components/
-│   ├── LevelSelector.jsx      # Level selection interface
-│   ├── TypingTest.jsx         # Main typing component
-│   ├── OnScreenKeyboard.jsx   # 3D keyboard with highlighting
-│   └── StarProgress.jsx       # Progress tracking
-├── data/
-│   └── content.js             # Typing content by difficulty
-├── utils/
-│   ├── starCalculator.js      # Performance evaluation
-│   └── progressTracker.js     # Progress persistence
-└── styles/                    # Component-specific CSS
-
-Progression System
-
-| Level | Required Stars | Content Focus | |-------|---------------|---------------| | Easy | 3/7 | Basic programming concepts | | Intermediate | 4/7 | OOP, algorithms, data structures | | Advanced | 4/7 | ML, distributed systems, cryptography | | Expert | 4/7 | Blockchain, quantum computing | | Master | 4/7 | Category theory, formal verification | | Grandmaster | 4/7 | Advanced research topics |
+typespeed-pro/
+├── src/
+│   ├── assets/               # Static assets (images, fonts)
+│   ├── components/           # Reusable UI components
+│   │   ├── core/            # Fundamental components
+│   │   │   ├── Button/
+│   │   │   ├── Card/
+│   │   │   └── Modal/
+│   │   ├── features/        # Feature components
+│   │   │   ├── LevelSelector/
+│   │   │   ├── TypingTest/
+│   │   │   ├── Keyboard3D/
+│   │   │   └── ProgressTracker/
+│   │   └── layout/          # Layout components
+│   │       ├── Header/
+│   │       └── Footer/
+│   ├── contexts/            # React contexts
+│   ├── hooks/               # Custom hooks
+│   ├── pages/               # Route-based pages
+│   ├── services/            # API/services
+│   ├── styles/              # Global styles
+│   ├── utils/               # Utility functions
+│   ├── App.jsx              # Root component
+│   └── main.jsx             # Entry point
+├── public/                  # Static public files
+├── tests/                   # Test files
+└── config/                  # Build/config files
 
 Stars awarded based on accuracy (70-100%) and words per minute.
 Performance Metrics
