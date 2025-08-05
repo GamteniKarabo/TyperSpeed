@@ -32,8 +32,8 @@ npm run dev
 # Build for production
 npm run build
 
-Project Structure
-
+# Project Structure
+```text
 typespeed-pro/
 ├── src/
 │   ├── assets/               # Static assets (images, fonts)
@@ -61,6 +61,7 @@ typespeed-pro/
 ├── public/                  # Static public files
 ├── tests/                   # Test files
 └── config/                  # Build/config files
+```
 
 Stars awarded based on accuracy (70-100%) and words per minute.
 Performance Metrics
