@@ -19,12 +19,12 @@
 
 ## ✨ Features
 
-🎯 **Progressive Learning**: 6 difficulty levels (Easy → Grandmaster) with CS/Math content  
-⌨️ **3D Interactive Keyboard**: Real-time key highlighting and finger placement guide  
-⭐ **Star Progression System**: Earn 1-7 stars per challenge, unlock levels with requirements  
-🎮 **Gamified Experience**: Particle effects, animations, and achievement tracking  
-📱 **Responsive Design**: Works seamlessly on desktop, tablet, and mobile  
-💾 **Progress Persistence**: Your achievements saved locally  
+ **Progressive Learning**: 6 difficulty levels (Easy → Grandmaster) with CS/Math content  
+ **3D Interactive Keyboard**: Real-time key highlighting and finger placement guide  
+ **Star Progression System**: Earn 1-7 stars per challenge, unlock levels with requirements  
+ **Gamified Experience**: Particle effects, animations, and achievement tracking  
+ **Responsive Design**: Works seamlessly on desktop, tablet, and mobile  
+ **Progress Persistence**: Your achievements saved locally  
 
 ---
 
@@ -81,7 +81,11 @@ typespeed-pro/
 │   │   └── progressTracker.js
 │   ├── App.jsx              # Main app component
 │   ├── main.jsx             # Entry point
-│   └── index.css            # Global styles
+│   ├── index.css            # Global styles
+│   ├── typing-test.css
+│   ├── App.css
+│   ├── modals.css
+│   └── components.css
 ├── public/                  # Static files
 └── package.json             # Dependencies
 ```
@@ -121,7 +125,7 @@ MIT License - see LICENSE file for details.
 
 <div align="center">
 
-**Contact**: gamtenikarabo@gmail.com
+**Contact**: gamtenikarabo@gmail.com / +27 76 300 4531
 
 ![University Badge](https://img.shields.io/badge/University-of%20Limpopo-green?style=for-the-badge)
 
