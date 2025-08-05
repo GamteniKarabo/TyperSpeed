@@ -332,4 +332,5 @@ Unlock special badges as you progress:
 
 ![University Badge](https://img.shields.io/badge/University-of%20Limpopo-green?style=for-the-badge)
 
-</div>
+</div>#   T y p e r S p e e d  
+ 
