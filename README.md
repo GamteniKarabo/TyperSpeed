@@ -1,24 +1,36 @@
-# TypeSpeed Pro - CS/Math Edition
+# 🎮 TypeSpeed Pro - CS/Math Edition
 
-A typing trainer application designed for Computer Science and Mathematics students, featuring progressive difficulty levels and technical vocabulary.
-Features
+<div align="center">
 
-    Progressive Learning: 6 difficulty levels (Easy → Grandmaster)
-    Technical Content: CS/Math terminology and concepts
-    Visual Feedback: Real-time typing visualization with 3D keyboard
-    Progress Tracking: Star-based progression system with localStorage persistence
-    Responsive Design: Works across desktop, tablet, and mobile devices
+![TypeSpeed Pro Logo](https://img.shields.io/badge/TypeSpeed-Pro-8B5CF6?style=for-the-badge&logo=keyboard&logoColor=white)
 
-Tech Stack
+**A gamified typing trainer for Computer Science & Mathematics students**
 
-    React 18.3.1
-    Vite (build tool)
-    CSS3 with animations
-    JavaScript ES6+
-    Local Storage for persistence
+*University of Limpopo Edition*
 
-Quick Start
+[![React](https://img.shields.io/badge/React-18.3.1-61DAFB?style=flat-square&logo=react)](https://reactjs.org/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![CSS3](https://img.shields.io/badge/CSS3-Animations-1572B6?style=flat-square&logo=css3)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![Vite](https://img.shields.io/badge/Vite-5.4.2-646CFF?style=flat-square&logo=vite)](https://vitejs.dev/)
 
+</div>
+
+---
+
+## ✨ Features
+
+🎯 **Progressive Learning**: 6 difficulty levels (Easy → Grandmaster) with CS/Math content  
+⌨️ **3D Interactive Keyboard**: Real-time key highlighting and finger placement guide  
+⭐ **Star Progression System**: Earn 1-7 stars per challenge, unlock levels with requirements  
+🎮 **Gamified Experience**: Particle effects, animations, and achievement tracking  
+📱 **Responsive Design**: Works seamlessly on desktop, tablet, and mobile  
+💾 **Progress Persistence**: Your achievements saved locally  
+
+---
+
+## 🚀 Quick Start
+
+```bash
 # Clone repository
 git clone https://github.com/GamteniKarabo/typespeed-pro.git
 
@@ -31,63 +43,88 @@ npm run dev
 
 # Build for production
 npm run build
-
-# Project Structure
-```text
-typespeed-pro/
-├── src/
-│   ├── assets/               # Static assets (images, fonts)
-│   ├── components/           # Reusable UI components
-│   │   ├── core/            # Fundamental components
-│   │   │   ├── Button/
-│   │   │   ├── Card/
-│   │   │   └── Modal/
-│   │   ├── features/        # Feature components
-│   │   │   ├── LevelSelector/
-│   │   │   ├── TypingTest/
-│   │   │   ├── Keyboard3D/
-│   │   │   └── ProgressTracker/
-│   │   └── layout/          # Layout components
-│   │       ├── Header/
-│   │       └── Footer/
-│   ├── contexts/            # React contexts
-│   ├── hooks/               # Custom hooks
-│   ├── pages/               # Route-based pages
-│   ├── services/            # API/services
-│   ├── styles/              # Global styles
-│   ├── utils/               # Utility functions
-│   ├── App.jsx              # Root component
-│   └── main.jsx             # Entry point
-├── public/                  # Static public files
-├── tests/                   # Test files
-└── config/                  # Build/config files
 ```
 
-Stars awarded based on accuracy (70-100%) and words per minute.
-Performance Metrics
+---
 
-    WPM: Real-time words per minute calculation
-    Accuracy: Character-level precision tracking
-    Error Rate: Mistakes per minute
-    Progress: Completion status across levels
+## 🎮 How It Works
 
-Contributing
+### Level Progression
+- **Easy**: 3⭐ required (basic programming concepts)
+- **Intermediate - Grandmaster**: 4⭐ required (advanced CS topics)
+- **10 challenges per level** must be completed
+- **Maximum 7⭐** possible per challenge
 
-    Fork the repository
-    Create feature branch: git checkout -b feature/feature-name
-    Commit changes: git commit -m 'Add feature'
-    Push to branch: git push origin feature/feature-name
-    Open Pull Request
+### Star Rating
+Stars awarded based on **accuracy** (70-100%) and **words per minute**:
+- 7⭐: Perfect accuracy + High WPM
+- 4-6⭐: Good accuracy + Decent WPM  
+- 1-3⭐: Needs improvement
 
-Development Guidelines
+---
 
-    Follow existing code style
-    Ensure responsive design compatibility
-    Test across different screen sizes
-    Update documentation for new features
+## 📁 Project Structure
 
-License
+```
+typespeed-pro/
+├── src/
+│   ├── components/          # React components
+│   │   ├── LevelSelector.jsx
+│   │   ├── TypingTest.jsx
+│   │   ├── OnScreenKeyboard.jsx
+│   │   ├── TutorialGuide.jsx
+│   │   └── StarProgress.jsx
+│   ├── data/
+│   │   └── content.js       # Typing content by difficulty
+│   ├── utils/
+│   │   ├── starCalculator.js
+│   │   └── progressTracker.js
+│   ├── App.jsx              # Main app component
+│   ├── main.jsx             # Entry point
+│   └── index.css            # Global styles
+├── public/                  # Static files
+└── package.json             # Dependencies
+```
+
+---
+
+## 🎯 Performance Metrics
+
+- **WPM**: Real-time words per minute calculation
+- **Accuracy**: Character-level precision tracking  
+- **Progress**: Star-based completion across levels
+- **Challenges**: Track completed typing exercises
+
+---
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create feature branch: `git checkout -b feature/feature-name`
+3. Commit changes: `git commit -m 'Add feature'`
+4. Push to branch: `git push origin feature/feature-name`
+5. Open Pull Request
+
+### Development Guidelines
+- Follow existing code style and structure
+- Ensure responsive design compatibility
+- Test across different screen sizes
+- Update documentation for new features
+
+---
+
+## 📄 License
 
 MIT License - see LICENSE file for details.
 
-Contact: gamtenikarabo@gmail.com
+---
+
+<div align="center">
+
+**Contact**: gamtenikarabo@gmail.com
+
+![University Badge](https://img.shields.io/badge/University-of%20Limpopo-green?style=for-the-badge)
+
+*Made with ❤️ for CS/Math students*
+
+</div>
