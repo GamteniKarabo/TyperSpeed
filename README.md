@@ -1,8 +1,8 @@
-# 🎮 TypeSpeed Pro - CS/Math Edition
+# 🎮 TyperSpeed Pro - CS/Math Edition
 
 <div align="center">
 
-![TypeSpeed Pro Logo](https://img.shields.io/badge/TypeSpeed-Pro-8B5CF6?style=for-the-badge&logo=keyboard&logoColor=white)
+![TyperSpeed Pro Logo](https://img.shields.io/badge/TyperSpeed-Pro-8B5CF6?style=for-the-badge&logo=keyboard&logoColor=white)
 
 **A gamified typing trainer for Computer Science & Mathematics students**
 
@@ -32,10 +32,10 @@
 
 ```bash
 # Clone repository
-git clone https://github.com/GamteniKarabo/typespeed-pro.git
+git clone https://github.com/GamteniKarabo/TyperSpeed-pro.git
 
 # Install dependencies
-cd typespeed-pro
+cd TyperSpeed-pro
 npm install
 
 # Start development server
@@ -66,7 +66,7 @@ Stars awarded based on **accuracy** (70-100%) and **words per minute**:
 ## 📁 Project Structure
 
 ```
-typespeed-pro/
+typespeedpro/
 ├── src/
 │   ├── components/          # React components
 │   │   ├── LevelSelector.jsx
