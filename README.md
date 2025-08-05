@@ -1,4 +1,4 @@
-TypeSpeed Pro - CS/Math Edition
+# TypeSpeed Pro - CS/Math Edition
 
 A typing trainer application designed for Computer Science and Mathematics students, featuring progressive difficulty levels and technical vocabulary.
 Features
