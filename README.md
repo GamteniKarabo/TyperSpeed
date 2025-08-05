@@ -32,10 +32,10 @@
 
 ```bash
 # Clone repository
-git clone https://github.com/GamteniKarabo/TyperSpeed-pro.git
+git clone https://github.com/GamteniKarabo/TyperSpeed.git
 
 # Install dependencies
-cd TyperSpeed-pro
+cd TyperSpeed
 npm install
 
 # Start development server
